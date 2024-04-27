@@ -1,0 +1,13 @@
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/e_learning_platform?createDatabaseIfNotExist=true
+    username: spangl3r
+    password: 9845
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true

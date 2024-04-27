@@ -1,0 +1,13 @@
+spring:
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/e_learning_platform
+    username: spangl3r
+    password: 9845
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true

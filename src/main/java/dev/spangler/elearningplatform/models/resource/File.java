@@ -1,0 +1,22 @@
+package dev.spangler.elearningplatform.models.resource;
+
+import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
+
+//@DiscriminatorValue(value = "FILE")
+
+//@PrimaryKeyJoinColumn(name = "file_id")
+@EqualsAndHashCode(callSuper = true)
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@SuperBuilder
+@Entity
+public class File extends Resource {
+
+    private String type;
+}

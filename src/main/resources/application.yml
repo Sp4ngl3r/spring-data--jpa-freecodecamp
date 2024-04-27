@@ -1,0 +1,8 @@
+spring:
+
+  application:
+    name: e-learning-platform
+
+  profiles:
+    active: postgres
+#    active: mysql
